@@ -14,9 +14,19 @@
 	<body>
 		<div class="container-fluid">
 			<header class = "row">
-				<nav class="col menu">
-					<p class="text">Меню</p>
-				</nav>
+				<nav class="navbar navbar-inverse col menu">
+					<div class="container-fluid">
+					  <div class="navbar-header">
+						<a class="navbar-brand" href="#">Till Lindemann books</a>
+					  </div>
+					  <ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">В тихой ночи</a></li>
+						<li><a href="#">Нож</a></li>
+						<li><a href="#">100 gedichte</a></li>
+					  </ul>
+					</div>
+				  </nav>
 				<div class = "col row row-cols-1 title">
 					<p class = "col Title-2">Тилль Линдеманн</p>
 					<p class = "col Title-3">Страница о книгах великого музыканта</p>
@@ -97,26 +107,31 @@
 				  <div class="col container-fluid books">
 					<p class="Title-2">Книги</p>
 					<hr class="mt-2 mb-5">
-					<div class="row">
-						<div class="col-4 book">
-							<div class="book-information">
-								<img src="./images/book1.jpg" class="image-book"><br><br>
-								<p class="Title-3">В тихой ночи</p>
-							</div>
+					<div class="row">	
+						<div class="book col-4">
+							<a href="#">
+								<div class="book-information">
+									<img src="./images/book1.jpg" class="image-book"><br><br>
+									<p class="Title-3">В тихой ночи</p>
+								</div>
+							</a>
 						</div>
-						<div class="col-4 book">
-							<div class="book-information">
-								<img src="./images/book2.jpg"  class="image-book"><br><br>
-								<p class="Title-3">Нож</p>
-							</div>
+						<div class="book col-4">	
+							<a href="#">	
+								<div class="book-information">
+									<img src="./images/book2.jpg"  class="image-book"><br><br>
+									<p class="Title-3">Нож</p>
+								</div>
+							</a>
 						</div>
-						<div class="col-4 book">
-							<div class="book-information">
-								<img src="./images/book3.jpg"  class="image-book"><br><br>
-								<p class="Title-3">100 gedichte</p>
-							</div>
+						<div class="book col-4">
+							<a href="#">	
+								<div class="book-information">
+									<img src="./images/book3.jpg"  class="image-book"><br><br>
+									<p class="Title-3">100 gedichte</p>
+								</div>
+							</a>
 						</div>
-
 					</div>
 				</div>
 			</article>
@@ -135,7 +150,11 @@
 					</a>
 				</div>
 				<div class="col bottom">
-					<p>Нижній контур</p>
+					<p class="Title-3">Сделано by Садовенко Максим</p>
+					<a href="https://t.me/imax123">
+						<i>Telegram</i><br>
+					</a>
+					<p>12.04.2020</p>
 				</div>
 			</footer>
 		</div>

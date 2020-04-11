@@ -14,10 +14,7 @@ body{
 .menu {
 	background-color: gray;
 	color: white;
-	display: flex;
 	border: 1px solid black;
-	align-items: center;
-	justify-content: center;
 	min-height: 100px;
 }
 
@@ -69,10 +66,7 @@ body{
 .bottom {
 	background-color: gray;
 	color: white;
-	display: flex;
 	border: 1px solid black;
-	align-items: center;
-	justify-content: center;
 	min-height: 100px;
 }
 
@@ -111,7 +105,17 @@ body{
 	max-height: 250px;
 }
 
-a {
+.menu a {
 	color: white;
 }
+
+.books a {
+	text-decoration: none;
+	color: black;
+}
+
+.extra-section a {
+	color: white;
+}
+
 
