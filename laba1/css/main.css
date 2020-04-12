@@ -47,6 +47,7 @@ body{
 }
 
 .Title-3{
+	text-align: center;
 	font-weight: bold;
 	font-size: 1.2em;
 	font-family: 'Playfair Display', serif;
@@ -118,4 +119,30 @@ body{
 	color: white;
 }
 
+.main-img {
+	max-width: 350px;
+}
+
+.book-down {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.down-button {
+	background-color: rgb(72, 76, 68);
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	height: 40px;
+	width: 100px;
+	border-radius: 7px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+
+.down-button a{
+	color: white;
+}
 
