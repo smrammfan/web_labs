@@ -30,6 +30,7 @@ export default class Controller {
         let handler = {
             set: (obj, prop, val) => {
                 obj[prop] = val;
+                this.model.rewriteId();
                 this.view.showAllLinks(this.model.links);
                 this.view.clearInput();
                 return true;

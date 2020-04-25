@@ -23,4 +23,10 @@ export default class Model {
        const linkIndex = this.links.findIndex((link) => parseInt(link.id) === parseInt(id));
        this.links.splice(linkIndex, 1);
     }
+
+    rewriteId(){
+        for(let i = 0; i < this.links.length; i++){
+            this.links[i].id = i + 1;
+        }
+    }
 }
