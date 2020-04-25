@@ -9,6 +9,7 @@ export default class Controller {
 
     addLink(e){ 
         let link = document.querySelector('#input_url').value;
+        if(link == "") return;
         let protocol_ok = link.startsWith("http://") || link.startsWith("https://") || link.startsWith("ftp://");
         if(!protocol_ok){
             link = "https://"+ link;
